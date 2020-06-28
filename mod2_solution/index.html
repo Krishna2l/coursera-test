@@ -4,21 +4,38 @@
 	<title>Chill Pill</title>
 <style>
 h1 { text-align: center;
+	font-size: 35px;
+	font-family: "Comic Sans MS", sans-serif;
 	}
-section { background-color:  salmon;
+* { box-sizing: border-box; }
+div { background-color: salmon;
 	border: 1px solid black;
-	margin: 20px;
-	font-family: "Comic Sans MS", serif; }
+	font-size: 20px;
+	font-family: "Comic Sans MS", sans-serif;
+    margin: 10px;
+	 }
 .heading { 
-
 border: 1px solid black;
-width: auto;
+width: auto;za
 margin: 0;
-position: relative;
 float: right;
 color: white;
-font-family: "Comic Sans MS", serif;}
-p { padding: 10px; }
+font-size: 125%;
+}
+p { padding: 10px;
+	}
+@media ( min-width: 992px) {
+	.p1 { width: 33%;
+	float: left; }
+}
+@media ( min-width: 768px) and (max-width: 991px) {
+	.p2 { width: 50%;
+	float: left; }
+}
+@media ( max-width: 767px) {
+	.p3 { width: 100%;
+	float: left; }
+}
 
 #purple { background-color: blueviolet; }
 #brown { background-color: brown; }
@@ -27,14 +44,14 @@ p { padding: 10px; }
 </head>
 <body>
 <h1>Our Menu</h1>
-<section>
+
+<section class="p1 p2 p3"><div>
 	<p class="heading" id="purple">Purple Rain</p><br>
-	<p>Old fashioned Vanilla Ice-cream with Raspberry Swirl and Butterscotch Swirl, Raspberries, Strawberries, Graham Crackers, topped with Purple Whip Cream and sprinkled with Caramelized Bacon Bits.Old fashioned Vanilla Ice-cream with Raspberry Swirl and Butterscotch Swirl, Raspberries, Strawberries, Graham Crackers, topped with Purple Whip Cream and sprinkled with Caramelized Bacon Bits.</p></section>
-<section>
+	<p>Old fashioned Vanilla Ice-cream with Raspberry Swirl and Butterscotch Swirl, Raspberries, Strawberries, Graham Crackers, topped with Purple Whip Cream and sprinkled with Caramelized Bacon Bits. Milk Chocolate Ice-cream with White Chocolate swirl, Graham Cracker, Dark Chocolate ice cream with dark chocolate chips and chucks, white chocolate sause, cherries and toffees.</p></div></section>
+<section class="p1 p2 p3"><div>
 	<p class="heading" id="brown">Choco Glamping</p><br>
-	<p>Milk Chocolate Ice-cream with White Chocolate swirl, Graham Cracker, Dark Chocolate ice cream with dark chocolate chips and chucks, white chocolate sause, cherries and toffees.Milk Chocolate Ice-cream with White Chocolate swirl, Graham Cracker, Dark Chocolate ice cream with dark chocolate chips and chucks, white chocolate sause, cherries and toffees.</p></section>
-<section>
+	<p>Old fashioned Vanilla Ice-cream with Raspberry Swirl and Butterscotch Swirl, Raspberries, Strawberries, Graham Crackers, topped with Purple Whip Cream and sprinkled with Caramelized Bacon Bits. Milk Chocolate Ice-cream with White Chocolate swirl, Graham Cracker, Dark Chocolate ice cream with dark chocolate chips and chucks, white chocolate sause, cherries and toffees.</p></div></section>
+<section class="p1 p3"><div>
 	<p class="heading" id="blue">Blue Blizzard</p><br>
-	<p>Blueberry Ice-cream with Marshmallow Swirl and Peanut Butter Swirl, Fresh Blueberries, Dark Chocolate Chunks, Cone pieces, Roasted Almonds and sprinkled cashew bits.Blueberry Ice-cream with Marshmallow Swirl and Peanut Butter Swirl, Fresh Blueberries, Dark Chocolate Chunks, Cone pieces, Roasted Almonds and sprinkled cashew bits.</p></section>
-</body>
+	<p>Old fashioned Vanilla Ice-cream with Raspberry Swirl and Butterscotch Swirl, Raspberries, Strawberries, Graham Crackers, topped with Purple Whip Cream and sprinkled with Caramelized Bacon Bits. Milk Chocolate Ice-cream with White Chocolate swirl, Graham Cracker, Dark Chocolate ice cream with dark chocolate chips and chucks, white chocolate sause, cherries and toffees.</p></div></section>
 </html>
