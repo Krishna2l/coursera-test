@@ -27,14 +27,14 @@ height: 50px;
 p { padding: 20px;
 	}
 @media ( min-width: 992px) {
-	.p1 { width: 33%;
+	.col-lg-4 { width: 33%;
 	float: left; }
 }
 @media ( min-width: 768px) and (max-width: 991px) {
-	.p2, .p3 {
+	.col-md-6, .col-md-12 {
 	float: left; }
-	.p2 { width: 50%; }
-	.p3 { width: 100%; }
+	.col-md-6 { width: 50%; }
+	.col-md-12 { width: 100%; }
 }
 
 #purple { background-color: blueviolet; }
