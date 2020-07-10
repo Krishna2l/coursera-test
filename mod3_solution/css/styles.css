@@ -2,14 +2,14 @@ body {
 	font-size: 16px;
 	color: #fff;
 	font-family: 'Comic Neue', cursive;
-	background-color: #62211f;
+	background-color: #BD7093;
 }
 #header-nav {
-	background-color: yellow;
+	background-color: #FFD700;
 	border-radius: 0;
 	border: 0;
-	height: 80px;
-}
+	padding-bottom: 10px; }
+
 .navbar-brand {
 	padding-top: 10px;
 }
@@ -17,15 +17,48 @@ body {
 	color: #557c3e;
 	margin: 0;
 	float: left;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #62211f;
-}
-#nav-list {
-	margin-top: 10px;
-}
-#nav-list a {
-	text-align: center;
+	font-size: 2.5em;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #62211f;
+} 
+#nav-list a {
+	color: black;
+	background-color: #FF7F50;
+	text-align: center;
+	font-size: 20px;
+	border-color: black;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 2em;
+}
+ul li:nth-child(1) {
+	border-top: 1px solid black;
+}
+
+#nav-list a:hover {
+	color: white;
+	background-color: #DC143C ;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+body h1 {
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+.row {
+	margin: auto;
+}
+.row > div {
+	border: 2px solid black;
+	margin-bottom: 40px;
+	background-color:  #2E8B5F;
 }
